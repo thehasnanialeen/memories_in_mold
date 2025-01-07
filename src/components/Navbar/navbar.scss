@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--theme-bg-color);
+    color: white;
+    font-size: 30px;
+    padding: 0 10vw;
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 1000;
+
+    .nav-logo{
+        display: flex;
+        align-items: center;
+
+        img{
+            height: 130px;
+            vertical-align: middle;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--theme-text-color);
+    }
+
+    .nav-sections{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}
