@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/memories_in_mold/static/css/main.1f86b3cb.css",
-    "main.js": "/memories_in_mold/static/js/main.d8e259e3.js",
+    "main.js": "/memories_in_mold/static/js/main.7c8a471c.js",
     "static/media/Main_video.mp4": "/memories_in_mold/static/media/Main_video.68d673f805cc2c1cbddb.mp4",
     "static/media/Montserrat.ttf": "/memories_in_mold/static/media/Montserrat.4df14eb5e72bf55c4497.ttf",
     "static/media/Caveat.ttf": "/memories_in_mold/static/media/Caveat.31f0a02d84d42627c894.ttf",
@@ -13,10 +13,10 @@
     "static/media/MM_Name_resized.png": "/memories_in_mold/static/media/MM_Name_resized.e7c93f09aab8b84b2c75.png",
     "index.html": "/memories_in_mold/index.html",
     "main.1f86b3cb.css.map": "/memories_in_mold/static/css/main.1f86b3cb.css.map",
-    "main.d8e259e3.js.map": "/memories_in_mold/static/js/main.d8e259e3.js.map"
+    "main.7c8a471c.js.map": "/memories_in_mold/static/js/main.7c8a471c.js.map"
   },
   "entrypoints": [
     "static/css/main.1f86b3cb.css",
-    "static/js/main.d8e259e3.js"
+    "static/js/main.7c8a471c.js"
   ]
 }
