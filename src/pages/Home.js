@@ -4,6 +4,7 @@ import About_Myself from "../components/About_Myself/about_myself";
 import ContactMe from "../components/Contact_Me/contact_me";
 import Products from '../components/Products/products';
 import Navbar from '../components/Navbar/navbar';
+import Footer from "../components/Footer/footer";
 
 const Home = () => {
     return (
