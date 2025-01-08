@@ -1,6 +1,15 @@
 :root {
   --theme-bg-color: #3E373D;
   --theme-text-color: #DDD8C3;
+  --side-padding: 0 10vw;
+
+  @media (max-width: 1024px) {
+    --side-padding: 0 6.5vw;
+  }
+
+  @media (max-width: 900px) {
+    --side-padding: 0 5vw;
+  }
 }
 
 @font-face {

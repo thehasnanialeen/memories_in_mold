@@ -40,7 +40,7 @@ const Projects = () => {
                             <img src={product.image} alt={product.name} />
                         </div>
                         <div className="product-details">
-                            <h3>{product.name}</h3>
+                            <h2>{product.name}</h2>
                             <div className="product-price">
                                 <span className="price">{isNaN(product.price) ? `` : `$`}{product.price}</span>
                                 {/* {product.discount > 0 && isNaN(product.price) && <span className="discount">${product.price-product.discount}</span>} */}

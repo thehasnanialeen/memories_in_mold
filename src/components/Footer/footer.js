@@ -19,8 +19,8 @@ const Footer = () => {
                         <h2>Contact Us</h2>
                         <p>Memories in Mold</p>
                         <p>Regina, SK</p>
-                        <p>Phone: +1(306)535-1226</p>
-                        <p>Email: memoriesinmold@gmail.com</p>
+                        <p><a href='tel:+13065351226'>Phone: +1(306)535-1226</a></p>
+                        <p><a href='mailto:memoriesinmold@gmail.com'>Email: memoriesinmold@gmail.com</a></p>
                     </div>
                     <div className="social">
                         <h2>Follow Us</h2>

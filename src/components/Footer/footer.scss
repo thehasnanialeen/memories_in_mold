@@ -10,7 +10,8 @@
     }
 
     .footer-box {
-        padding: 0 10vw;
+        margin-top: -2px;
+        padding: var(--side-padding);
         background-color: var(--theme-bg-color);
 
         img {
@@ -31,7 +32,7 @@
 
             .social-links {
                 display: flex;
-                justify-content: space-evenly;
+                gap: 15px;
                 align-items: center;
                 font-size: x-large;
             }
@@ -49,6 +50,16 @@
 
         .copyright {
             text-align: center;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-box {
+        .content {
+            flex-direction: column;
+            width: fit-content;
+            margin-inline: auto;
         }
     }
 }

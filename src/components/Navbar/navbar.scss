@@ -4,7 +4,7 @@
     background-color: var(--theme-bg-color);
     color: white;
     font-size: 30px;
-    padding: 0 10vw;
+    padding: var(--side-padding);
     position: fixed;
     width: -webkit-fill-available;
     z-index: 1000;
@@ -28,5 +28,13 @@
         display: flex;
         align-items: center;
         gap: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        .nav-sections {
+            display: none;
+        }
     }
 }

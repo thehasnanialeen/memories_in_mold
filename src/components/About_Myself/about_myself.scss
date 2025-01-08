@@ -1,7 +1,7 @@
 .about-container {
     position: relative;
-    padding: 0vw 10vw;
-    min-height: 80vh;
+    padding: var(--side-padding);
+
 }
 
 .about-content {
