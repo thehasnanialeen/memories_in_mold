@@ -1,7 +1,7 @@
 import React from 'react';
 import Section_Heading from '../Section_Heading/section_heading';
 import './products.scss';
-import { Main_photo1, Main_photo2, couple_hand } from '../../assets/images';
+import { Main_photo1, Main_photo2, couple_hand, single_hand } from '../../assets/images';
 
 const Projects = () => {
     const products = [
@@ -9,19 +9,19 @@ const Projects = () => {
             'name': 'Single hand/foot',
             'price': 60,
             'discount': 15,
-            'image': Main_photo1
+            'image': single_hand,
         },
         {
             'name': 'Both hands & feet',
             'price': 165,
             'discount': 15,
-            'image': Main_photo2,
+            'image': Main_photo1,
         },
         {
             'name': 'Couples hand',
             'price': 100,
             'discount': 15,
-            'image': Main_photo1,
+            'image': couple_hand,
         },
         {
             'name': 'Full Family Cast',
