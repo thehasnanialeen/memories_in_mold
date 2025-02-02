@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.scss';
-import { MM_Logo } from '../../assets/images';
+import { MM_Logo_footer } from '../../assets/images';
 import { FaFacebook, FaInstagram  } from "react-icons/fa";
 
 const Footer = () => {
@@ -12,14 +12,14 @@ const Footer = () => {
             <div className="footer-box">
                 <div className="content">
                     <div className="logo">
-                        <img src={MM_Logo} alt="Memories in Mold" />
-                        <p>Casting memories that last a life time!</p>
+                        <img src={MM_Logo_footer} alt="Memories in Mold" />
+                        <p>Creating memories that last a life time!</p>
                     </div>
                     <div className="contact">
                         <h2>Contact Us</h2>
                         <p>Memories in Mold</p>
                         <p>Regina, SK</p>
-                        <p><a href='tel:+13065351226'>Phone: +1(306)535-1226</a></p>
+                        <p><a href='tel:+13065351226'>Phone: +1 (306) 535-1226</a></p>
                         <p><a href='mailto:memoriesinmold@gmail.com'>Email: memoriesinmold@gmail.com</a></p>
                     </div>
                     <div className="social">

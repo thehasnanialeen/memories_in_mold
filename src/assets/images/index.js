@@ -5,7 +5,7 @@ import couple_hand from './couple_hand.jpg';
 import single_hand from './single_hand.jpg';
 import Main_video from './Main_video.mp4';
 import MM_Logo_header from './MM_Logo_header.png';
-import MM_Logo from './MM_Logo.png';
+import MM_Logo_footer from './MM_Logo_footer.png';
 
 export {
     Logo,
@@ -15,5 +15,5 @@ export {
     single_hand,
     Main_video,
     MM_Logo_header,
-    MM_Logo
+    MM_Logo_footer,
 }
