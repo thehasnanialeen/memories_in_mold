@@ -7,7 +7,7 @@ const ContactMe = () => {
         <div className="contact-me" id='contact'>
             <Section_Heading title="Contact Us" />
             <div className='contact-form-container'>
-                <form className='contact-form' >{/* action="https://formspree.io/f/xnqoqzqz" method="POST"> */}
+                <form className='contact-form' action="https://formspree.io/f/xgvoyqjj" method="POST">
                     <div>
                         <label htmlFor="name">Name</label>
                         <input type="text" id="name" name="name" required />
