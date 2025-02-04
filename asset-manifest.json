@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/memories_in_mold/static/css/main.1f86b3cb.css",
-    "main.js": "/memories_in_mold/static/js/main.7c8a471c.js",
+    "main.css": "/memories_in_mold/static/css/main.dc7cbc0b.css",
+    "main.js": "/memories_in_mold/static/js/main.88693263.js",
     "static/media/Main_video.mp4": "/memories_in_mold/static/media/Main_video.68d673f805cc2c1cbddb.mp4",
     "static/media/Montserrat.ttf": "/memories_in_mold/static/media/Montserrat.4df14eb5e72bf55c4497.ttf",
     "static/media/Caveat.ttf": "/memories_in_mold/static/media/Caveat.31f0a02d84d42627c894.ttf",
     "static/media/Poppins-Regular.ttf": "/memories_in_mold/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/couple_hand.jpg": "/memories_in_mold/static/media/couple_hand.0cc5cfa0a7ff7ed845d6.jpg",
     "static/media/Lato-Regular.ttf": "/memories_in_mold/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
-    "static/media/MM_Logo.png": "/memories_in_mold/static/media/MM_Logo.1d433a12a5d45b53a615.png",
+    "static/media/MM_Logo_footer.png": "/memories_in_mold/static/media/MM_Logo_footer.1d433a12a5d45b53a615.png",
     "static/media/Main_photo1.jpg": "/memories_in_mold/static/media/Main_photo1.cbd5310eb0d94110a29a.jpg",
     "static/media/Main_photo2.jpg": "/memories_in_mold/static/media/Main_photo2.2731c3b1761b854fd35f.jpg",
     "static/media/MM_Name_resized.png": "/memories_in_mold/static/media/MM_Name_resized.e7c93f09aab8b84b2c75.png",
+    "static/media/single_hand.jpg": "/memories_in_mold/static/media/single_hand.2c72335ba8bd32eea04a.jpg",
     "index.html": "/memories_in_mold/index.html",
-    "main.1f86b3cb.css.map": "/memories_in_mold/static/css/main.1f86b3cb.css.map",
-    "main.7c8a471c.js.map": "/memories_in_mold/static/js/main.7c8a471c.js.map"
+    "main.dc7cbc0b.css.map": "/memories_in_mold/static/css/main.dc7cbc0b.css.map",
+    "main.88693263.js.map": "/memories_in_mold/static/js/main.88693263.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f86b3cb.css",
-    "static/js/main.7c8a471c.js"
+    "static/css/main.dc7cbc0b.css",
+    "static/js/main.88693263.js"
   ]
 }
