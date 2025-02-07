@@ -15,10 +15,10 @@ function App() {
               path="/"
               element={<Home />}
             />
-            <Route 
+            {/* <Route 
               path="/about"
               element={<About />}
-            />
+            /> */}
           </Routes>
         </div>
         <Footer />

@@ -2,6 +2,7 @@ import React from 'react';
 import Section_Heading from '../Section_Heading/section_heading';
 import './products.scss';
 import { Main_photo1, Main_photo2, couple_hand, single_hand } from '../../assets/images';
+import { HashLink } from 'react-router-hash-link';
 
 const Projects = () => {
     const products = [
@@ -12,16 +13,16 @@ const Projects = () => {
             'image': single_hand,
         },
         {
-            'name': 'Both hands & feet',
-            'price': 165,
-            'discount': 15,
-            'image': Main_photo1,
-        },
-        {
             'name': 'Couples hand',
             'price': 100,
             'discount': 15,
             'image': couple_hand,
+        },
+        {
+            'name': 'Both hands & feet',
+            'price': 165,
+            'discount': 15,
+            'image': Main_photo1,
         },
         {
             'name': 'Full Family Cast',
@@ -50,7 +51,7 @@ const Projects = () => {
                 ))}
             </div>
             <div className="product-button">
-                <button>View All Products</button>
+                <HashLink to={'#contact'}><button>Contact For More Products</button></HashLink>
             </div>
         </div>
     );

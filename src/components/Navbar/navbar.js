@@ -3,6 +3,7 @@ import './navbar.scss'
 import { Link } from 'react-router-dom'
 import { Logo } from '../../assets/images'
 import {motion} from 'framer-motion'
+import { HashLink } from 'react-router-hash-link';
 
 const Navbar = () => {
     const sectionList=[
@@ -33,14 +34,14 @@ const Navbar = () => {
             </div>
             <div className='nav-sections'>
                 {sectionList.map((section, index) => (
-                    <a href={section.link}>
+                    <HashLink to={section.link}>
                         <motion.p
                             whileHover={{scale: 1.2}}
                             whileTap={{scale: 0.9}}
                         >
                             {section.name}
                         </motion.p>
-                    </a>
+                    </HashLink>
                 ))}
             </div>
         </header>
