@@ -1,3 +1,10 @@
+.hidden-no-heigth {
+    height: 0;
+    // width: 100%;
+    visibility: hidden;
+    margin: 0;
+}
+
 .about-container {
     position: relative;
     padding: var(--side-padding);

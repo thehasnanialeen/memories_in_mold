@@ -6,6 +6,7 @@ const ContactMe = () => {
     return (
         <div className="contact-me" id='contact'>
             <Section_Heading title="Contact Us" />
+            <h2 className="hidden-no-heigth">Contact Memories in Mold – Book Your Hand Casting</h2>
             <div className='contact-form-container'>
                 <form className='contact-form' action="https://formspree.io/f/xgvoyqjj" method="POST">
                     <div>

@@ -34,6 +34,7 @@ const Projects = () => {
     return (
         <div className='products-container' id='products'>
             <Section_Heading title="Products" />
+            <h2 className="hidden-no-heigth">Our Hand Casting Packages in Regina</h2>
             <div className="products-list">
                 {products.map((product, index) => (
                     <div className="product" key={index}>

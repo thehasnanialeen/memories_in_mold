@@ -1,0 +1,16 @@
+{
+    "short_name": "Memories in Mold",
+    "name": "Memories in Mold - Hand Casting in Regina",
+    "icons": [
+      {
+        "src": "/MM_Logo_header.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"  
+  }
+  

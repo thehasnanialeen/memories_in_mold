@@ -6,7 +6,7 @@ import { Main_photo1, Main_photo2, Main_video } from '../../assets/images';
 const Introduction = () => {
   return (
     <div className='introduction-container'>
-        <h1 className="hidden">Hidden section</h1>
+        <h1 className="hidden">Hidden sectionHand Casting in Regina – Memories in Mold | Couples, Family & Baby Keepsakes</h1>
         <div className='introduction'>
             <div className='name'>
                 <h1>
@@ -31,6 +31,13 @@ const Introduction = () => {
                 </div>
             </div>
         </div>
+
+        {/* Hidden SEO text for keywords */}
+        <div style={{ position: "absolute", left: "-9999px" }} aria-hidden="false">
+          Professional hand casting in Regina, Saskatchewan for couples, families, and newborns.
+          Custom molds for weddings, anniversaries, and family keepsakes.
+        </div>
+        
         {/* <svg className="svg-curve" viewBox="0 0 1440 79" xmlns="http://www.w3.org/2000/svg">
           <path d="M-100 79C-100 79 218.416 23.165 693.5 23.165C1168.58 23.165 1487 79 1487 79V0H-100V79Z"></path>
         </svg> */}
