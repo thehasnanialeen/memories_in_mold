@@ -61,6 +61,12 @@ const Home = () => {
                     "@type": "Brand",
                     "name": "Memories in Mold"
                   }
+                }, "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "CAD",
+                    "price": "165.00",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://memoriesinmold.ca/#products"
                 }
                 `}
                 </script>
