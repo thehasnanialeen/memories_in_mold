@@ -1,28 +1,34 @@
 import React from 'react';
 import Section_Heading from '../Section_Heading/section_heading';
 import './products.scss';
-import { Main_photo1, Main_photo2, couple_hand, single_hand } from '../../assets/images';
+import { Main_photo1, Main_photo2, couple_hand, single_hand, Single_hand_and_foot } from '../../assets/images';
 import { HashLink } from 'react-router-hash-link';
 
 const Projects = () => {
     const products = [
         {
-            'name': 'Single hand/foot',
+            'name': 'Single baby hand/foot',
             'price': 60,
             'discount': 15,
             'image': single_hand,
+        },
+        {
+            'name': 'Single baby hand and foot',
+            'price': 100,
+            'discount': 15,
+            'image': Single_hand_and_foot,
+        },
+        {
+            'name': 'Both baby hands & feet',
+            'price': 180,
+            'discount': 15,
+            'image': Main_photo1,
         },
         {
             'name': 'Couples hand',
             'price': 140,
             'discount': 15,
             'image': couple_hand,
-        },
-        {
-            'name': 'Both hands & feet',
-            'price': 180,
-            'discount': 15,
-            'image': Main_photo1,
         },
         {
             'name': 'Full Family Cast',
@@ -50,6 +56,14 @@ const Projects = () => {
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className="product-notes">
+                <p>
+                    ✨ <strong>Display Upgrade:</strong> Make your mold display-ready by adding a frame for just <strong>$40</strong>.
+                </p>
+                <p>
+                    We love bringing unique ideas to life—get in touch for any custom requests!
+                </p>
             </div>
             <div className="product-button">
                 <HashLink to={'#contact'}><button>Contact For More Products</button></HashLink>
