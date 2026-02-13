@@ -14,13 +14,13 @@ const Projects = () => {
         },
         {
             'name': 'Couples hand',
-            'price': 100,
+            'price': 140,
             'discount': 15,
             'image': couple_hand,
         },
         {
             'name': 'Both hands & feet',
-            'price': 165,
+            'price': 180,
             'discount': 15,
             'image': Main_photo1,
         },
