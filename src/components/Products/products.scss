@@ -29,7 +29,27 @@
         }
     }
 
+    .product-notes {
+          text-align: center;
+          margin: 30px auto 20px auto; /* Spacing above and below */
+          max-width: 600px;
+          padding: 0 15px;
+          color: #333; /* Dark grey text */
+        
+          p {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            line-height: 1.5;
+            
+            strong {
+              color: #3e373d; /* A Gold/Bronze color to match a 'keepsake' vibe - or use your brand color */
+              font-weight: 700;
+            }
+         }
+    }
+
     .product-button {
+        margin-top: 30px;
         margin-bottom: 20px;
         text-align: center;
 
