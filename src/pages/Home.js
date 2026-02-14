@@ -52,21 +52,22 @@ const Home = () => {
                 <script type="application/ld+json">
                 {`
                 {
-                  "@context": "https://schema.org",
-                  "@type": "Product",
-                  "name": "Couples Hand Casting",
-                  "image": "https://memoriesinmold.ca/images/couples-casting.jpg",
-                  "description": "Beautiful couples hand casting keepsake in Regina, Saskatchewan.",
-                  "brand": {
-                    "@type": "Brand",
-                    "name": "Memories in Mold"
-                  }
-                }, "offers": {
-                    "@type": "Offer",
-                    "priceCurrency": "CAD",
-                    "price": "165.00",
-                    "availability": "https://schema.org/InStock",
-                    "url": "https://memoriesinmold.ca/#products"
+                    "@context": "https://schema.org",
+                    "@type": "Product",
+                    "name": "Couples Hand Casting",
+                    "image": "https://memoriesinmold.ca/images/couples-casting.jpg",
+                    "description": "Beautiful couples hand casting keepsake in Regina, Saskatchewan.",
+                    "brand": {
+                        "@type": "Brand",
+                        "name": "Memories in Mold"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "priceCurrency": "CAD",
+                        "price": "165.00",
+                        "availability": "https://schema.org/InStock",
+                        "url": "https://memoriesinmold.ca/#products"
+                    }
                 }
                 `}
                 </script>
